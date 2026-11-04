@@ -8,7 +8,7 @@
 
 - 主站：[cloudflare主线](https://redgsau.chenyue.fun/)
 
-- 备线：[github备线](https://chenyue957.github.io/home/)
+- 备线：[github备线](https://chenyue957.github.io/redgsau/)
 
 ## 作品简介
 
@@ -45,33 +45,15 @@ redsite/
 ├── images/             # 原创矢量插图
 │   ├── star.svg
 │   ├── ridge.svg
-│   ├── monument.svg
-│   └── wheat.svg
+│   ├── 藏粮于技破旱困 深耕陇原麦飘香——记甘肃农业大学小麦抗旱分子育种团队——来源：中央广电总台国际在线.png
+│   ├── 南梁革命烈士纪念碑——来源：鳳凰網甘肅.png
+│   └── 黄羊镇时期的学校大门——来源：甘农大官网.png
 └── README.md
 ```
 
-目录层级不超过三层，本地资源全部使用相对路径，不依赖任何外部资源。
-
-## 
-
-## 图片说明
-
-- 页面中的插图为原创矢量图，位于 `images/`。
-- 如需使用网络图片，打开 `js/main.js` 末尾的 `PHOTOS` 配置，填写图片地址和出处：
-
-```js
-var PHOTOS = {
-  journey: { src: '图片地址', credit: '出处' },
-  campus:  { src: '', credit: '' },
-  field:   { src: '', credit: '' }
-};
-```
-
-页面会在图片下方自动标注“图片来源：出处”；图片加载失败时会自动换回原创插图。请选择可确认出处、允许使用的图片，并如实标注来源。
-
 ## 兼容性
 
-按 Edge 90 及以上版本编写，已避免使用较新的 CSS 与 JS 特性。提交和部署后建议在 Edge 中把每个栏目都点一遍，确认显示和交互正常。
+按 Edge 90 及以上版本编写，已避免使用较新的 CSS 与 JS 特性。确认显示和交互正常。
 
 ## 资料来源
 
