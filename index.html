@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>红色甘农</title><link rel="icon" href="images/star.svg"><link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="nav">
+      <a class="logo" href="#home"><img src="images/star.svg" alt="红星">红色甘农</a><button class="menu-btn" aria-label="菜单">菜单</button>
+      <ul>
+        <li>
+          <a href="#home" data-v="home">首页</a>
+        </li>
+        <li>
+          <a href="#journey" data-v="journey">长征路</a>
+        </li>
+        <li>
+          <a href="#campus" data-v="campus">甘农路</a>
+        </li>
+        <li>
+          <a href="#fields" data-v="fields">田间答卷</a>
+        </li>
+        <li>
+          <a href="#spirit" data-v="spirit">精神传承</a>
+        </li>
+        <li>
+          <a href="#quiz" data-v="quiz">红色答题</a>
+        </li>
+      </ul>
+    </header>
+    <section class="view" id="home">
+      <section class="mast">
+        <div class="mast-top">
+          <span>陇原红色记忆专刊</span><span>兰州</span><span>1946—2026 建校第八十年</span>
+        </div>
+        <div class="vt" aria-hidden="true">
+          长征路　甘农路
+        </div>
+        <div class="seal" aria-hidden="true">
+          甘<br>农
+        </div>
+        <h1>
+          红色甘农
+        </h1>
+        <p class="sub">
+          红军走过的甘肃，和甘农人走了八十年的路，放在同一张纸上读。
+        </p>
+        <img class="ridge" src="images/ridge.svg" alt="">
+      </section>
+      <div class="stats">
+        <div>
+          <b data-count="1946">0</b>国立兽医学院创立
+        </div>
+        <div>
+          <b data-count="1958">0</b>甘肃农业大学成立
+        </div>
+        <div>
+          <b data-count="1981">0</b>迁回兰州
+        </div>
+        <div>
+          <b data-count="8">0</b>人，首届毕业生
+        </div>
+      </div>
+      <main class="wrap">
+        <h2 class="title">
+          头条
+        </h2>
+        <div class="cols">
+          <p>
+            1935年秋天，红军走出迭部，打下腊子口，又在哈达铺的一张旧报纸上读到陕北的消息。十一年后，1946年10月，兰州小西湖边开了一所新学校，招的是学兽医的学生。
+          </p>
+          <p>
+            这两件事隔了十一年，也隔着完全不同的处境，原本没什么关联。可翻校史的时候会发现，它们的做法很像：方向认准了，就一砖一瓦往前挪，不等条件齐备。
+          </p>
+          <p>
+            首届48名学生，最后毕业的只有8个，同学们叫他们“八大金刚”。1984年，学校在安宁区的荒滩上重新盖校舍，两年后才在新校址招生。这些事情都不热闹，但是很具体。
+          </p>
+          <p>
+            这个网站做的就是对照：左边是红军在甘肃的几处地标，右边是甘农的八十年。读完可以去答几道题，也可以给先辈留一句话。
+          </p>
+        </div>
+        <div class="two">
+          <a href="#journey"><b>长征路</b><span>1934—1936，六处地标，点着读。</span></a><a href="#campus"><b>甘农路</b><span>1946—2026，从小西湖到安宁区。</span></a>
+        </div>
+      </main>
+      <section class="wrap" style="padding-top:0">
+        <h2 class="title">
+          本期目录
+        </h2>
+        <ul class="toc">
+          <li>
+            <a href="#journey">长征路：红军在甘肃</a><em>第二版</em>
+          </li>
+          <li>
+            <a href="#campus">甘农路：八十年校史</a><em>第三版</em>
+          </li>
+          <li>
+            <a href="#fields">田间答卷：从实验室到地头</a><em>第四版</em>
+          </li>
+          <li>
+            <a href="#spirit">精神传承与寄语墙</a><em>第五版</em>
+          </li>
+          <li>
+            <a href="#quiz">红色答题</a><em>第六版</em>
+          </li>
+        </ul>
+      </section>
+      <section class="wrap" style="padding-top:0">
+        <h2 class="title">
+          作品简介
+        </h2>
+        <dl class="intro">
+          <dt>
+            红色主题阐述
+          </dt>
+          <dd>
+            作品把红军长征在甘肃的足迹与甘肃农业大学的办学历程并置，一条是1934至1936年的行军路，一条是1946至2026年的办学路，共同指向“认准方向、艰苦奋斗、服务人民”的红色精神。
+          </dd>
+          <dt>
+            技术架构
+          </dt>
+          <dd>
+            采用HTML、CSS、JavaScript三文件分离的纯静态结构，图片统一放在images目录，页面间全部使用相对路径，目录不超过三层，已按Edge 90以上版本的特性编写，不依赖任何外部资源。
+          </dd>
+          <dt>
+            核心功能
+          </dt>
+          <dd>
+            包含可点击的长征路线图、可展开的八十年校史时间轴、可点选的田间成果表、双面翻转的精神卡片、寄语墙，以及八道红色答题。
+          </dd>
+          <dt>
+            设计亮点
+          </dt>
+          <dd>
+            版式仿照一份红色校报，用刊头、专栏、目录引线和印章呈现，配色取中国红、金色与旧纸色，页面插图为原创矢量图，每个子页面都能一键返回首页。
+          </dd>
+        </dl>
+      </section>
+    </section>
+    <section class="view" id="journey">
+      <section class="hero small">
+        <h1>
+          长征路
+        </h1>
+        <p class="sub">
+          点击地图上的红星，或点击下方时间轴，读每处地标发生了什么。
+        </p>
+        <img class="ridge" src="images/ridge.svg" alt="">
+      </section>
+      <main class="wrap">
+        <div class="map-box">
+          <div class="map">
+            <svg viewBox="0 0 500 380" role="img" aria-label="甘肃红色地标示意图"><path d="M20 120L120 60 260 80 380 30 480 90 440 200 380 260 260 340 130 330 40 250z" fill="#f4e3c1" stroke="#e4cfa8" stroke-width="2"/><path d="M60 90C120 120 150 180 200 210S320 200 360 150 420 110 440 130" fill="none" stroke="#c8102e" stroke-width="3" stroke-dasharray="7 6"/><g class="node" tabindex="0" role="button" aria-label="南梁"><polygon points="360,150 366,166 383,166 369,176 374,192 360,182 346,192 351,176 337,166 354,166"/><text x="300" y="215">南梁</text></g><g class="node" tabindex="0" role="button" aria-label="迭部"><polygon points="120,255 126,271 143,271 129,281 134,297 120,287 106,297 111,281 97,271 114,271"/><text x="62" y="318">迭部</text></g><g class="node" tabindex="0" role="button" aria-label="腊子口"><polygon points="150,225 156,241 173,241 159,251 164,267 150,257 136,267 141,251 127,241 144,241"/><text x="172" y="262">腊子口</text></g><g class="node" tabindex="0" role="button" aria-label="哈达铺"><polygon points="200,170 206,186 223,186 209,196 214,212 200,202 186,212 191,196 177,186 194,186"/><text x="222" y="190">哈达铺</text></g><g class="node" tabindex="0" role="button" aria-label="会宁"><polygon points="290,120 296,136 313,136 299,146 304,162 290,152 276,162 281,146 267,136 284,136"/><text x="248" y="112">会宁</text></g><g class="node" tabindex="0" role="button" aria-label="河西走廊"><polygon points="90,100 96,116 113,116 99,126 104,142 90,132 76,142 81,126 67,116 84,116"/><text x="60" y="88">河西走廊</text></g></svg>
+            <p class="map-caption">
+              示意图，不代表真实地理比例
+            </p>
+          </div>
+          <div class="panel" aria-live="polite">
+            <div class="date" id="pd">
+            </div>
+            <h2 id="pt">
+            </h2>
+            <p id="px">
+            </p>
+            <div class="ctl">
+              <button class="btn" id="prev">上一站</button><button class="btn" id="next">下一站</button><span id="pc"></span>
+            </div>
+          </div>
+        </div>
+        <figure class="photo side">
+          <img src="images/南梁革命烈士纪念碑——来源：鳳凰網甘肅.png" alt="南梁革命烈士纪念碑">
+          <figcaption class="cap">
+            图片来源：凤凰网甘肃
+          </figcaption>
+        </figure>
+        <ul class="tl">
+          <li>
+            1934年11月　南梁
+          </li>
+          <li>
+            1935年9月　迭部
+          </li>
+          <li>
+            1935年9月　腊子口
+          </li>
+          <li>
+            1935年9月　哈达铺
+          </li>
+          <li>
+            1936年10月　会宁
+          </li>
+          <li>
+            1936年10月起　河西走廊
+          </li>
+        </ul>
+        <p class="src">
+          地标史实为概述，提交前请对照权威党史资料核对。
+        </p>
+        <div class="back">
+          <a class="btn ghost" href="#home">返回首页</a><a class="btn" href="#campus">下一站：甘农路</a>
+        </div>
+      </main>
+    </section>
+    <section class="view" id="campus">
+      <section class="hero small">
+        <h1>
+          甘农路
+        </h1>
+        <p class="sub">
+          三易其址，四更其名。点开每一年，看这所学校怎么走过来的。
+        </p>
+        <img class="ridge" src="images/ridge.svg" alt="">
+      </section>
+      <main class="wrap">
+        <figure class="photo side">
+          <img src="images/黄羊镇时期的学校大门——来源：甘农大官网.png" alt="甘肃农业大学黄羊镇时期的学校大门">
+          <figcaption class="cap">
+            图片来源：甘肃农业大学官网
+          </figcaption>
+        </figure>
+        <p class="lead">
+          校史里有一条很清楚的线：创办时写下“臻进人类健康、裨益国民生计”，后来一代代人在不同的地方，用不同的办法接着做这件事。下面每一年都可以点开。
+        </p>
+        <details class="yr" open>
+          <summary>
+            <b>1946</b><span>小西湖边的第一所兽医学院</span>
+          </summary>
+          <p>
+            1946年10月，国立兽医学院在兰州小西湖创立，创办者是盛彤笙。这是国内第一所独立的高等兽医学校。首届招了48名学生，严格的要求之下，只有8人顺利毕业，被同学戏称“八大金刚”。
+          </p>
+        </details>
+        <details class="yr">
+          <summary>
+            <b>1949</b><span>兰州解放，学校获得新生</span>
+          </summary>
+          <p>
+            兰州解放后，兰州市军管会调派汽车，把存放在上海、重庆等地的仪器药品陆续拉回兰州。长期困扰学校的院址问题也得到解决，到1953年校园已有175亩。
+          </p>
+        </details>
+        <details class="yr">
+          <summary>
+            <b>1950—52</b><span>改名、并科、并系</span>
+          </summary>
+          <p>
+            1950年更名西北兽医学院，畜牧科等并入；1951年改称西北畜牧兽医学院；1952年9月，西北农学院畜牧兽医系并入。几次合并，把西北的畜牧兽医力量聚到了一处。
+          </p>
+        </details>
+        <details class="yr">
+          <summary>
+            <b>1958</b><span>合并成立，西迁黄羊镇</span>
+          </summary>
+          <p>
+            学校与筹建中的甘肃农学院合并，成立甘肃农业大学，迁到武威县黄羊镇办学。这一住就是二十多年。
+          </p>
+        </details>
+        <details class="yr">
+          <summary>
+            <b>1981</b><span>经国务院批准迁回兰州</span>
+          </summary>
+          <p>
+            学校迁回兰州。第二年之后的难处也不小：新校址在安宁区一片荒滩上，没有现成的楼。
+          </p>
+        </details>
+        <details class="yr">
+          <summary>
+            <b>1984</b><span>荒滩上重新起校舍</span>
+          </summary>
+          <p>
+            1984年10月，在财政投入十分有限的情况下，全校师生从一砖一瓦、一草一木开始，又一次艰苦创业。1986年秋季，学校在新校址招生。
+          </p>
+        </details>
+        <details class="yr">
+          <summary>
+            <b>2026</b><span>八十周年</span>
+          </summary>
+          <p>
+            2026年9月29日，学校迎来建校八十周年，校友遍布全国，累计培养25万余名专业人才。八十年里学校经历了三次搬迁、四次更名，名字在变，初心没有变。
+          </p>
+        </details>
+        <p class="src">
+          资料来源：甘肃农业大学官网“历史沿革”“校史总览”，科技日报2026年9月报道。具体表述请以学校权威校史资料为准。
+        </p>
+        <div class="back">
+          <a class="btn ghost" href="#home">返回首页</a><a class="btn" href="#fields">下一站：田间答卷</a>
+        </div>
+      </main>
+    </section>
+    <section class="view" id="fields">
+      <section class="hero small">
+        <h1>
+          田间答卷
+        </h1>
+        <p class="sub">
+          八十年里，甘农人把论文写在了地里。点一行，看细节。
+        </p>
+        <img class="ridge" src="images/ridge.svg" alt="">
+      </section>
+      <main class="wrap">
+        <p class="lead">
+          学校在旱区、寒区和草原做研究，下面几项成果是官方报道里明确提到的。
+        </p>
+        <div class="table-wrap">
+          <table class="tab" id="tab">
+            <thead>
+              <tr>
+                <th>
+                  成果
+                </th>
+                <th>
+                  做了什么
+                </th>
+                <th>
+                  领域
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-n="甘肃白猪是甘肃农业大学育成的甘肃首个瘦肉型猪品种，解决了甘肃瘦肉猪生产中的母本适配问题，回应了本省养殖生产的实际需求。">
+                <td>
+                  甘肃白猪
+                </td>
+                <td>
+                  甘肃首个瘦肉型猪品种
+                </td>
+                <td>
+                  畜牧
+                </td>
+              </tr>
+              <tr data-n="“黄河蜜”是甘肃农业大学培育的甜瓜品类，已享誉全国。这项园艺成果把品种选育与地方特色瓜果产业联系起来，体现了农业科研服务生产的路径。">
+                <td>
+                  黄河蜜甜瓜
+                </td>
+                <td>
+                  培育的甜瓜品类，销往全国
+                </td>
+                <td>
+                  园艺
+                </td>
+              </tr>
+              <tr data-n="学校育成陇油7号等5个强抗寒冬油菜新品种，可耐-25℃至-32℃低温。项目资料记载，冬油菜种植区从天水北纬35度向北扩展至北京北纬40度、阿勒泰北纬48度，最远北移约13个纬度，也为北方寒旱区冬油菜越冬和油料生产提供了品种与技术支撑。">
+                <td>
+                  陇油系列
+                </td>
+                <td>
+                  冬油菜种植区北移13个纬度
+                </td>
+                <td>
+                  作物
+                </td>
+              </tr>
+              <tr data-n="甘农系列苜蓿、甘农系列小黑麦和陇燕系列燕麦等品种，已推广到全国20多个省、市、区，累计推广面积超过1000万亩。它们服务于西部农牧区草产业发展、粮改饲和生态环境建设，兼顾生产、生态与经济效益。">
+                <td>
+                  苜蓿、小黑麦、燕麦
+                </td>
+                <td>
+                  累计推广1000多万亩
+                </td>
+                <td>
+                  草业
+                </td>
+              </tr>
+              <tr data-n="甘肃农业大学团队历经十余年研发大跨度高性能戈壁日光温室。报道介绍，10米跨度温室较传统8米跨度温室夜间平均温度和最低温度提高2℃以上，极端低温下提高3℃以上；相关项目累计推广33.4万亩，新增效益10.7亿元，并获2025年度甘肃省科技进步奖二等奖。学校研发的智慧灌溉系统也用于提高旱区水资源利用效率。">
+                <td>
+                  戈壁日光温室
+                </td>
+                <td>
+                  荒滩变丰产田
+                </td>
+                <td>
+                  工程
+                </td>
+              </tr>
+              <tr data-n="小麦抗旱分子育种团队扎根旱塬十余年，将常规育种与分子标记辅助选择结合，培育陇鉴116、灵台4号等5个抗旱高产新品种。2022至2024年，这些品种累计推广386.6万亩，平均亩产335.6公斤，较对照品种平均增产7.3%；团队相关项目获2025年度甘肃省科技进步一等奖。">
+                <td>
+                  小麦抗旱育种
+                </td>
+                <td>
+                  抗旱基因资源与新品种
+                </td>
+                <td>
+                  育种
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note" id="note" aria-live="polite">
+          点击上面任意一行。
+        </p>
+        <h2 class="title section-title-spaced">
+          八十年，留在西北的人
+        </h2>
+        <p class="lead">
+          报道里提到，80%以上的毕业生扎根西北基层，成为农技骨干和乡村带头人。
+        </p>
+        <div class="progress-track">
+          <div class="bar-n" id="bn" data-w="80">
+          </div>
+        </div>
+        <p>
+          80%以上
+        </p>
+        <figure class="photo side">
+          <img src="images/藏粮于技破旱困 深耕陇原麦飘香——记甘肃农业大学小麦抗旱分子育种团队——来源：中央广电总台国际在线.png" alt="甘肃农业大学小麦抗旱分子育种团队在麦田中开展研究">
+          <figcaption class="cap">
+            图片来源：中央广电总台国际在线
+          </figcaption>
+        </figure>
+        <p class="src">
+          资料来源：
+          <a href="https://www.stdaily.com/web/gdxw/2026-09/30/content_590487.html" target="_blank" rel="noopener">科技日报《八秩耕耘育农才 科技赋能兴陇原》</a>；
+          <a href="https://www.moa.gov.cn/xw/qg/202405/t20240520_6455760.htm" target="_blank" rel="noopener">农业农村部《甘肃强化种质创新 打造“西部种业之都”》</a>；
+          <a href="https://nxy.gsau.edu.cn/info/2318/5385.htm" target="_blank" rel="noopener">甘肃农业大学农学院：北方旱寒区冬油菜北移集成技术研究与示范</a>；
+          <a href="https://news.sciencenet.cn/htmlnews/2026/4/563243.shtm" target="_blank" rel="noopener">科学网：在戈壁滩上，他们建起了会“取暖”的日光温室</a>；
+          <a href="https://www.gsau.edu.cn/info/1281/58589.htm" target="_blank" rel="noopener">甘肃农业大学：小麦抗旱分子育种团队</a>。
+        </p>
+        <div class="back">
+          <a class="btn ghost" href="#home">返回首页</a><a class="btn" href="#spirit">下一站：精神传承</a>
+        </div>
+      </main>
+    </section>
+    <section class="view" id="spirit">
+      <section class="hero small">
+        <h1>
+          精神传承
+        </h1>
+        <p class="sub">
+          四个词，两段历史。翻开卡片对照着读。
+        </p>
+        <img class="ridge" src="images/ridge.svg" alt="">
+      </section>
+      <main class="wrap">
+        <h2 class="title">
+          四张卡片
+        </h2>
+        <p class="lead">
+          点击翻面，正面是关键词，背面是红军和甘农各自的做法。
+        </p>
+        <div class="cards">
+          <button class="flip"><i><em>方向<small>点击翻面</small></em><u><span><b>红军：</b>俄界会议后继续北上，目标始终是陕北。<br><b>甘农：</b>办学初心写得很清楚，“臻进人类健康、裨益国民生计”。</span></u></i></button><button class="flip"><i><em>苦干<small>点击翻面</small></em><u><span><b>红军：</b>强攻腊子口，翻雪山过草地。<br><b>甘农：</b>1984年荒滩上从一砖一瓦起校舍，1986年秋在新址招生。</span></u></i></button><button class="flip"><i><em>汇合<small>点击翻面</small></em><u><span><b>红军：</b>1936年10月，三大主力在会宁会师。<br><b>甘农：</b>1950、1952、1958年几次并科并系，合成一所学校。</span></u></i></button><button class="flip"><i><em>为民<small>点击翻面</small></em><u><span><b>红军：</b>在陇原落脚，靠的是群众基础。<br><b>甘农：</b>80%以上毕业生留在西北基层，年均百余支“三下乡”团队。</span></u></i></button>
+        </div>
+        <h2 class="title section-title-spirit">
+          寄语墙
+        </h2>
+        <p class="lead">
+          写一句话给先辈，或者给八十岁的母校。内容只保存在当前页面，刷新后清空。
+        </p>
+        <div class="wall">
+          <input id="who" maxlength="12" placeholder="你的名字，可不填"><input id="pledge" maxlength="40" placeholder="寄语，最多40字"><button class="btn" id="add">点亮红星</button>
+        </div>
+        <div id="err" role="alert">
+        </div>
+        <ul class="notes" id="notes">
+        </ul>
+        <div class="back">
+          <a class="btn ghost" href="#home">返回首页</a><a class="btn" href="#quiz">下一站：红色答题</a>
+        </div>
+      </main>
+    </section>
+    <section class="view" id="quiz">
+      <section class="hero small">
+        <h1>
+          红色答题
+        </h1>
+        <p class="sub">
+          八道题，一半在长征路，一半在甘农路。
+        </p>
+        <img class="ridge" src="images/ridge.svg" alt="">
+      </section>
+      <main class="wrap">
+        <div class="bar">
+          <div id="bar">
+          </div>
+        </div>
+        <div class="q" id="box">
+        </div>
+        <div class="back">
+          <a class="btn ghost" href="#home">返回首页</a><a class="btn" href="#journey">回看长征路</a>
+        </div>
+      </main>
+    </section>
+    <footer class="foot">
+      红色甘农 · 甘肃农业大学第五届红色网页设计大赛参赛作品<br>图片来源见各图下方说明；校史与成果资料来自学校官网及科技日报报道，请以权威资料为准。<br><a href="#home">首页</a><a href="#journey">长征路</a><a href="#campus">甘农路</a><a href="#fields">田间答卷</a><a href="#spirit">精神传承</a><a href="#quiz">红色答题</a>
+    </footer>
+    <button id="top" aria-label="回到顶部">↑</button><script src="js/main.js"></script>
+  </body>
+</html>
