@@ -496,6 +496,23 @@ a {
   color: var(--gold);
   margin: 0 10px;
 }
+.foot .credit {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(230,180,80,.35);
+  white-space: nowrap;
+}
+.foot .credit-separator {
+  margin: 0 10px;
+}
+.foot .credit a {
+  margin: 0;
+}
+@media(max-width:760px) {
+  .foot .credit {
+    white-space: normal;
+  }
+}
 #top {
   position: fixed;
   right: 22px;
